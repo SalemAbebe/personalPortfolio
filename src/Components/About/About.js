@@ -16,6 +16,10 @@ function About() {
       </div>
       <div className="about_picture">
         <img src={process.env.PUBLIC_URL + "/foto.png"}></img>
+
+        <a href={process.env.PUBLIC_URL + "resume-ea.pdf"} target="_blank">
+          <p className="cv">Resume</p>
+        </a>
       </div>
     </div>
   );

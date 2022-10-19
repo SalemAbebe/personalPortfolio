@@ -1,14 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #1d1d1d;
 }
-body {
-  background-color: #1d1d1d !important;
-}
+
 .App {
   text-align: center;
   color: aliceblue;
-  width: 80%;
+  font-family: "Inter", sans-serif;
+  width: 100%;
   margin: auto;
+}
+p {
+  font-size: 22px;
+}
+@media (max-width: 575px) {
+  body {
+    text-align: center;
+  }
 }

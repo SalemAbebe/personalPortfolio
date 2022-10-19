@@ -5,6 +5,8 @@ img:hover {
 a {
   color: #f1f1f1;
   text-decoration: none;
+  background-color: black;
+  font-size: 22px;
 }
 a:hover {
   color: #08fdd8;
@@ -14,4 +16,7 @@ a:hover {
 }
 .right-aligned {
   justify-content: flex-end;
+}
+.bg-color {
+  background-color: black !important;
 }
