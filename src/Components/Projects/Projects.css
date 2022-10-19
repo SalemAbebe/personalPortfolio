@@ -37,9 +37,13 @@
   filter: blur(1px);
   -webkit-filter: blur(1px);
 }
+IFrame {
+  height: 630px;
+  width: 800px;
+  display: block;
+}
 .iframe {
-  height: 530px;
-  /* width: 100%; */
+  transform: scale(0.85);
 }
 @media (max-width: 575px) {
   .project {

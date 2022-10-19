@@ -4,14 +4,16 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #1d1d1d;
+  background-color: black;
 }
 
 .App {
   text-align: center;
   color: aliceblue;
   font-family: "Inter", sans-serif;
-  width: 100%;
+  /* width: 100%; */
   margin: auto;
+  background-color: black;
 }
 p {
   font-size: 22px;

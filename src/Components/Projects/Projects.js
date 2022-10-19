@@ -17,7 +17,8 @@ function Projects() {
 
         <div className="iframe">
           <Iframe
-            src={process.env.PUBLIC_URL + "/magic8ball.png"}
+            url="https://salemabebe.github.io/magic8ball/"
+            id="magic8"
             alt="airbnb page"
           />
         </div>
