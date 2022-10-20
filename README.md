@@ -1,4 +1,4 @@
-# Huddle React Single Page Landing
+# Personal Portfolio
 
 ## Table of contents
 
